@@ -1,7 +1,7 @@
 # titanic-ml-app
 # 🛳️ Titanic ML App com Streamlit
 
-Este projeto usa dataset do Titanic para prever se um passageiro sobreviveria ou não, com base em informações como classe, idade, sexo e valor da passagem. O modelo foi integrado a uma interface simples em Python com [Streamlit](https://streamlit.io/), onde o usuário pode interagir diretamente com a IA.
+Este projeto usa dataset do Titanic para prever se um passageiro sobreviveria ou não, com base em informações como classe, idade, sexo e valor da passagem. O modelo foi integrado a uma interface simples em Python com [Streamlit](https://streamlit.io/).
 
 ## ✅ Funcionalidades
 
