@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 # Título
 st.title("🛳️ Previsão de Sobrevivência no Titanic")
 
-# Entradas do usuário
+# Entradas do usuário/seleção dos dados
 st.header("🔍 Informe os dados do passageiro:")
 
 pclass = st.selectbox("Classe do bilhete (1 = 1ª classe, 3 = 3ª classe)", [1, 2, 3])
@@ -29,7 +29,7 @@ input_dict = {
 }
 entrada = pd.DataFrame(input_dict)
 
-# Treinar o modelo (poderia ser carregado pronto também)
+# dataset 
 df = pd.read_csv('titanic_limpo.csv')
 dados = df[['Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Sex', 'Embarked', 'Survived']]
 dados = pd.get_dummies(dados, columns=['Sex', 'Embarked'], drop_first=True)
